@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.inputbox{
+    position: relative;
+}
+.inputbox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.container{
+     border: 0.5px solid white;
+     border-radius: 10px;
+     padding: 28px 32px ;
+     display: flex;
+     flex-direction: column;
+     background: transparent;
+     
+}
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 10px;
+}
+.passbox{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-block: 8px ;
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+
+}
+.row p,.row label{
+    flex-basis: 100%;
+    font-size: 18px;
+}
+.row input[type="checkbox"]{
+    width: 40px;
+    height: 20px;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 12px 24px;
+    color: rgb(246, 247, 252);
+    margin-block: 8px;
+    font-size: 18px;
+
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.genBtn:hover{
+    background-color: rgb(34, 145, 30);
+    transition: 1s;
+}
